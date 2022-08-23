@@ -18,10 +18,3 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 ele 更换主题颜色 注意事项
 -   main.ts 中 不用二次引入 样式 否则会报错 (Internal server error: Module loop: this module is already being loaded.)
 -   import 'element-plus/dist/index.css' ele 样式覆盖问题
-css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@use "./src/styles/element/index.scss" as *;`,
-      },
-    },
-   },
