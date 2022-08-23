@@ -20,15 +20,15 @@ ele 更换主题颜色 注意事项
 -   import 'element-plus/dist/index.css' ele 样式覆盖问题
      
        css: {
-     
-        preprocessorOptions: {
-
-          scss: {
+             preprocessorOptions: {
+               scss: {
           
                additionalData: `@use "./src/style/element-plus/index.scss" as *;`, // 路径问题
           
                },
         
           },
+       },
+
      
-     },
+   
